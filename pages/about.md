@@ -11,6 +11,5 @@ I am currently working as a UX/UI Designer at rapidBizApps, Inc. Take a look at 
 ## Me on the web
 - [Twitter](https://twitter.com/anithvishwanath)
 - [Linkedin](https://linkedin.com/in/anithvishwanath)
-- 
 
 Thank you for visiting my website! It is still a work in progress.
