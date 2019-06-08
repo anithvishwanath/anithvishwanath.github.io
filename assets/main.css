@@ -255,6 +255,7 @@ table {
 .trigger li {
   list-style-type: none;
   display: inline-block;
+  margin-right: 20px;
 }
 
 /**
@@ -309,6 +310,11 @@ table {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
+.copy {
+  text-align: right;
+}
+
 /**
  * Page content
  */
