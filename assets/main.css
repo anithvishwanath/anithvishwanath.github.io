@@ -255,7 +255,7 @@ table {
 .trigger li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 40px;
+  margin-left: 20px;
 }
 
 /**
