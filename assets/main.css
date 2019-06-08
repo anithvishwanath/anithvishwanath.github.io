@@ -300,10 +300,6 @@ table {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 1024px) {
-  .copy p {
-    text-align: right; }}
-
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
@@ -312,7 +308,8 @@ table {
 
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: calc(100% - (30px / 2)); }}
+
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
@@ -320,7 +317,7 @@ table {
     width: calc(100% - (30px / 2)); } 
   
   .copy p {
-    text-align: left; }}}
+    text-align: left; }}
 
 /**
  * Page content
