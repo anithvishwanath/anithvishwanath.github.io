@@ -256,6 +256,7 @@ table {
   list-style-type: none;
   display: inline-block;
   margin-left: 20px;
+  margin-bottom: 0;
 }
 
 /**
