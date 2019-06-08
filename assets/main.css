@@ -252,11 +252,14 @@ table {
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
+.trigger ul {
+  margin-bottom: 0;
+}
+
 .trigger li {
   list-style-type: none;
   display: inline-block;
   margin-left: 20px;
-  margin-bottom: 0;
 }
 
 /**
