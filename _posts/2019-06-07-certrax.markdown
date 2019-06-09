@@ -2,7 +2,7 @@
 layout: post
 title:  "cerTrax Training Module"
 date:   2019-06-07 02:34:00 +1000
-excerpt: A training module for a certification management system for mines, quarries, and aggregates
+excerpt: Application that tracks and manages miners' compliance and training requirements.
 categories: case-studies
 ---
 
