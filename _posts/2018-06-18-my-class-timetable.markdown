@@ -10,8 +10,6 @@ categories: case-studies
 
 My Class Timetable is an online timetable management module used by students, faculty, and the administrative staff at Swinburne University of Technology. It is part of a student management system called Student One, developed by Swinburne. Users may register, swap or change their classes upon the commencement of a semester using the application.
 
-<!--more-->
-
 The following report is a concrete case study of My Class Timetable along with a solution to the problem space I have done when I was a student studying the User-Centred Design unit at Swinburne. I was part of a group that worked on the project which took 3 months to finish, incorporating all the design principles and practices taught to us during the course.
 
 ## Context of use
