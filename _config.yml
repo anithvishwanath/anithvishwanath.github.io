@@ -32,6 +32,8 @@ plugins:
 gems:
   - jekyll-feed
   - jekyll-tidy
+  - jekyll-seo-tag
+  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
