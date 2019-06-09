@@ -1,49 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Begin Jekyll SEO tag v2.6.1 -->
-  <title>Anith Vishwanath | Experience Designer</title>
-  <meta name="generator" content="Jekyll v3.8.5" />
-  <meta property="og:title" content="Anith Vishwanath" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="Experience Designer" />
-  <meta property="og:description" content="Experience Designer" />
-  <link rel="canonical" href="http://anithvishwanath.github.io" />
-  <meta property="og:url" content="http://anithvishwanath.github.io" />
-  <meta property="og:site_name" content="Anith Vishwanath" />
-  <script type="application/ld+json">
-  {"url":"http://anithvishwanath.github.io","description":"Experience Designer","name":"Anith Vishwanath","headline":"Anith Vishwanath","@type":"WebSite","@context":"https://schema.org"}</script>
-  <!-- End Jekyll SEO tag -->
-
-  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://anithvishwanath.github.io/feed.xml" title="Anith Vishwanath" />
-</head>
-
+  
+  {% include head.html %}
+  
 <body>
+  
   {% include header.html %}
   
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <div class="home">
-      <h1>Hi! I'm Anith.</h1>
-      <p> //Description. </p>
-
-      <h2 class="post-list-heading">Work</h2>
-      {% for post in site.posts %}
-      <ul class="post-list">
-        <li>
-          <span class="post-meta">{{ post.date }}</span>
-          <h3><a class="post-link" href=" {{post.link}} ">{{ post.title }}</a></h3>
-<!--           <span style="font-size: 16px;">Swinburne University timetable application redesign.</span> -->
-          {{ post.excerpt }}
-        </li>
-      </ul>
+      {{ content }}
     </div>
   </main>
 
   {% include footer.html %}
+    
 </body>
 </html>
