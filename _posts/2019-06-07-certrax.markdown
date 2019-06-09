@@ -2,7 +2,7 @@
 layout: post
 title:  "cerTrax Training Module"
 date:   2019-06-07 02:34:00 +1000
-excerpt: Application that tracks and manages miners' compliance and training requirements.
+excerpt: Certification management application for miners that also tracks their compliance and training requirements.
 categories: case-studies
 ---
 
@@ -10,4 +10,4 @@ cerTrax is a mobile enabled application used by mines, quarries, aggregates, con
 
 ## The Ask
 
-cerTrax is a certification management system designed to be used by mining employees on a site. 
+// WIP.
