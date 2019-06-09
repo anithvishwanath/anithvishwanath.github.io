@@ -22,7 +22,7 @@
       </div>
     
     <div class="footer-col footer-col-3 copy">
-      <p>&copy; {{ date: "%Y" }} {{ site.author }}</p>
+      <p>&copy; {{ site.time | date: "%y" }} {{ site.title | escape }}</p>
       <p>{{ site.description | escape }}</p>
     </div>
   </div>
