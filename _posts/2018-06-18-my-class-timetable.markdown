@@ -2,6 +2,7 @@
 layout: post
 title:  "My Class Timetable"
 date:   2018-06-18 12:34:09 +1000
+excerpt: Swinburne University timetable application redesign.
 categories: case-studies
 ---
 
