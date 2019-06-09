@@ -10,6 +10,6 @@ I am currently working as a UX/UI Designer at rapidBizApps, Inc. Take a look at 
 
 ## Me on the web
 - <a href="https://twitter.com/anithvishwanath" target="_blank">Twitter</a>
-- <a href="https://https://linkedin.com/in/anithvishwanath" target="_blank">Linkedin</a>
+- <a href="https://linkedin.com/in/anithvishwanath" target="_blank">Linkedin</a>
 
 Thank you for visiting my website! It is still a work in progress.
