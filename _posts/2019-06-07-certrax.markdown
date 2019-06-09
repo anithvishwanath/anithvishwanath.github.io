@@ -2,12 +2,14 @@
 layout: post
 title:  "cerTrax Training Module"
 date:   2019-06-07 02:34:00 +1000
-excerpt: Mining certification and management application that tracks compliance and training requirements.
+excerpt: Certification and training management system that keeps track of the personnel compliance and training requirements at mining sites.
 categories: case-studies
 ---
 
-cerTrax is a mobile enabled application used by mines, quarries, aggregates, contract miners and their vendors and suppliers to manage Compliance and Training requirements for every employee on a site. This ensures that all the work being done around the mine is being done with the proper certificates.
+cerTrax is an certification and training management system that keeps track of the personnel compliance and training requirements at mining sites. This falls in line with the Mine Safety and Health Administration (MSHA) guidelines which requires every employee is equipped with the proper training and certification standards set in place. 
+
+In addition, MSHA also conducts routine inspections at mining worksites/areas, and this may involve producing certification and training plans when requested. Having an application that both digitises and provides a way to manage personnel certification records and the training programs undertaken by them will allow for greater portability and better competency at mines.
 
 ## The Ask
 
-// WIP.
+rapidBizApps needed a module (in addition to the certification management system that was in place), that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
