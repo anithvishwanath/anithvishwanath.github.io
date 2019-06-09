@@ -2,6 +2,7 @@
 layout: post
 title:  "Nattlampa"
 date:   2018-02-01 10:09:00 +1000
+excerpt: "App that measures the impact of artificial night-time lighting on nocturnal wildlife."
 categories: case-studies
 ---
 
