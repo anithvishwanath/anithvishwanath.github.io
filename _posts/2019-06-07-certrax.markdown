@@ -8,8 +8,21 @@ categories: case-studies
 
 cerTrax is an certification and training management system that keeps track of the personnel compliance and training requirements at mining sites. This falls in line with the Mine Safety and Health Administration (MSHA) guidelines which requires every employee is equipped with the proper training and certification standards set in place. 
 
-In addition, MSHA also conducts routine inspections at mining worksites/areas, and this may involve producing certification and training plans when requested. Having an application that both digitises and provides a way to manage personnel certification records and the training programs undertaken by them will allow for greater portability and better competency at mines.
+In addition, MSHA also conducts routine inspections at mining worksites/areas. This may involve producing certification and training plans when requested. Having an application that both digitises and provides a way to manage personnel certification records along with their training programs undertaken will allow for greater portability and better competency at mines.
 
 ## The Ask
 
 rapidBizApps needed a module (in addition to the certification management system already in place), that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
+
+### Goal
+
+> Help the mining industry develop high-quality training programs as part of MSHA’s mission to keep miners safe and healthy.
+
+### Understanding the context of use
+
+I began by going through the current implementation of the system to better understand the problem. A contextual inquiry was required but it was obviously not possible to perform a field study remotely. All of the requirements gathered was made possible by studying the training plans and the guidelines provided by MSHA, and also by asking questions to the stakeholders. This resulted in a relatively low chance of working based on assumptions. 
+
+#### User Groups
+
+The application was scoped out to have three main user groups -- an administrator, a supervisor, and the operator. During my research, I found that some mine operators can provide training to other operators. In other words, certain mine operators may also provide training (on the condition that they have been authorised to impart their knowledge in their area(s) of mining operations expertise by MSHA). These operators are referred to as “Competent Persons” within the MSHA program policy manuals, however they are simply called “Trainers” within the context of our application.
+
