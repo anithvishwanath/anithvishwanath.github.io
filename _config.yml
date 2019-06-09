@@ -24,6 +24,9 @@ dribbble_username: anithvishwanath
 timezone: Australia/Melbourne
 excerpt_separator: <!--more-->
 
+#Google Analytics
+google-analytics: UA-141679756-1
+
 # Build settings
 markdown: kramdown
 theme: minima
