@@ -12,4 +12,4 @@ In addition, MSHA also conducts routine inspections at mining worksites/areas, a
 
 ## The Ask
 
-rapidBizApps needed a module (in addition to the certification management system that was in place), that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
+rapidBizApps needed a module (in addition to the certification management system already in place), that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
