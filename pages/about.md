@@ -8,8 +8,12 @@ Hi, I'm Anith. I'm an experience designer focused on creating effortless, custom
 
 I am currently working as a UX/UI Designer at rapidBizApps, Inc. Take a look at my <a href="/">projects</a> to see what I've worked on.
 
+While I am not designing, I love to travel, read a lot of books, write (blog coming soon!), and learn new languages. I am currently (self)-learning Swedish. My interests include AR/VR, 3D + VFX, and generative/procedural art. 
+
 ## Me on the web
 - <a href="https://twitter.com/anithvishwanath" target="_blank">Twitter</a>
 - <a href="https://linkedin.com/in/anithvishwanath" target="_blank">Linkedin</a>
+- <a href="https://www.goodreads.com/user/show/48183698-anith-vishwanath" target="_blank">Goodreads</a>
+- <a href="https://open.spotify.com/user/yorunetsu" target="_blank">Spotify</a>
 
 Thank you for visiting my website! It is still a work in progress.
