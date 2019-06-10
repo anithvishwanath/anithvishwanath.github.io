@@ -49,7 +49,7 @@ For the design, I first started by sketching the concept on paper. A way to capt
 
 ### Prototype
 
-The interface design began by referring to the initial sketches I made along with the requirements gathered by perusing the MSHA training plan guides, specifications, and referring to sample training plans (for the forms). I initially made a set of wireframes, which gave me ample opportunities to iterate.
+The interface design began by referring to the initial sketches I made along with the requirements gathered by perusing the MSHA training plan guides, specifications, and referring to sample training plans (for the forms). I initially made a set of wireframes, which gave me ample opportunities to iterate. Select screens are shown below.
 
 #### Training plan view
 
@@ -57,7 +57,7 @@ The interface was going to make use of the existing layout and structure, with c
 
 ![Training plan view](/images/ct/training_view1x.png)
 
-For example, the blue header for the cards in the screen above indicates active training plans. These plans also have a progress bar tracking the course progression. Similar colours have been chosen to indicate different states; grey for unscheduled training plans, and yellow for those pending approval. This is a deliberate design decision, instead of being more explicit via the use of labels / tags, which have been repurposed to show the teaching methods used for the courses as seen in the active training module screen below.
+For example, the blue header for the cards in the screen above indicates active training plans. These plans also have a progress bar tracking the course progression. Similar colours have been chosen to indicate different states; grey for unscheduled training plans, and yellow for those pending approval. This is a deliberate design decision, instead of being more explicit via the use of labels / tags, which have been repurposed to show the teaching methods used for the courses (as seen in the active training module section below).
 
 #### Active training plan details
 
@@ -67,11 +67,12 @@ The layout for the active training plan was designed to ensure each element has 
 
 #### Creating and scheduling training plans
 
+Creation and scheduling of training plans is done through forms. Both forms have been divided into logical groupings, with appropriate description for each.
+
 ![Create new training plan](/images/ct/new_plan1x.png)
+
+The forms have been designed in line with the MSHA training plan development specifications. Training plans can be scheduled both on- and off-sites. When off-site locations are selected, an address field is shown. Supervisors can also assign a trainer and a set of trainees to the plan that they select to schedule.
 
 ![Schedule training plan](/images/ct/schedule_plan1x.png)
 
-### In conclusion
-
-
-
+Thank you for reading!
