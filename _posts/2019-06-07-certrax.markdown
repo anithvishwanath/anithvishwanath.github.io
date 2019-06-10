@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "cerTrax Training Module"
-date:   2019-06-07 02:34:00 +1000
+date:   201x-06-07 02:34:00 +1000
 excerpt: Certification and training management system that keeps track of the personnel compliance and training requirements at mining sites.
 categories: case-studies
 ---
