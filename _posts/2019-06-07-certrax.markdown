@@ -36,4 +36,6 @@ I made a user flow model with a set of functions that maps the supervisors' task
 
 ![User flow diagram for the training module](/images/ct/user-flow.png)
 
+A higher-res version of the flow diagram can be viewed <a href="https://www.anithvishwanath.com/images/ct/user-flow.png" target="_blank">here</a>.
+
 ### Design conceptualisation + ideation
