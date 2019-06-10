@@ -13,7 +13,7 @@ While I am not designing, I love to travel, read a lot of books, write (blog com
 ## Me on the web
 - <a href="https://twitter.com/anithvishwanath" target="_blank">Twitter</a>
 - <a href="https://linkedin.com/in/anithvishwanath" target="_blank">Linkedin</a>
+- <a href="https://codepen.io/anithvishwanath/" target="_blank">Codepen</a>
 - <a href="https://www.goodreads.com/user/show/48183698-anith-vishwanath" target="_blank">Goodreads</a>
-- <a href="https://open.spotify.com/user/yorunetsu" target="_blank">Spotify</a>
 
 Thank you for visiting my website! It is still a work in progress.
