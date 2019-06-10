@@ -49,15 +49,21 @@ For the design, I first started by sketching the concept on paper. A way to capt
 
 ### Prototype
 
+The interface design began by referring to the initial sketches I made along with the requirements gathered by perusing the MSHA training plan guides, specifications, and referring to sample training plans (for the forms). I initially made a set of wireframes, which gave me ample opportunities to iterate.
+
+#### Training plan view
+
 The interface was going to make use of the existing layout and structure, with certain new elements added to it. Primarily, I wanted to establish a clearer visual hierarchy via better typography and colour. Secondarily, I felt the need to simplify the interaction points. The training plan view shown below was made to meet both these needs. I chose blue for the primary elements of the interface. 
 
 ![Training plan view](/images/ct/training_view1x.png)
 
 For example, the blue header for the cards in the screen above indicates active training plans. These plans also have a progress bar tracking the course progression. Similar colours have been chosen to indicate different states; grey for unscheduled training plans, and yellow for those pending approval. This is a deliberate design decision, instead of being more explicit via the use of labels / tags, which have been repurposed to show the teaching methods used for the courses as seen in the active training module screen below.
 
+#### Active training plan details
+
 ![Active training plan view](/images/ct/active_training_module1x.png)
 
-The layout for the active training plan was designed to ensure each element is properly defined. All elements are given equal emphasis via the use of cards. This allows for easy visual scanning and less cognitive load; information can be gathered at a glance. The active plan shows the teaching methods used (lectures / discussions), the subjects included (which can be expanded to show more details), the evaluation procedures, and the training materials (for use by trainees). An overview of the course, along with the personnel information is shown on the right-hand side.
+The layout for the active training plan was designed to ensure each element has proper form and definition. All elements are given equal emphasis via the use of cards. This allows for easy visual scanning and less cognitive load; information can be gathered at a glance. The active plan shows the teaching methods used (lectures / discussions), the subjects included (which can be expanded to show more details), the evaluation procedures, and the training materials (for use by trainees). An overview of the course, along with the personnel information is shown on the right-hand side. One particular challenge I faced was to make optimum use of the screen space available on the web; the data had to be divided into different groupings and placed in a way that can be accessed effortlessly. 
 
 #### Creating and scheduling training plans
 
