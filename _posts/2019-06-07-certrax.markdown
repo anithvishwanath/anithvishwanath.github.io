@@ -12,7 +12,7 @@ In addition, MSHA also conducts routine inspections at mining worksites/areas. T
 
 ## The Ask
 
-rapidBizApps needed a module (in addition to the certification management system already in place), that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
+rapidBizApps needed a module (in addition to the certification management system already in place) for the web, that could also manage and keep track of personnel training. For example, cerTrax could be used to keep track of the training each employee has and also the equipment they are trained on. Furthermore, employees are awarded a certificate at the end of their respective courses.
 
 ### Goal
 
@@ -28,9 +28,12 @@ The application was scoped out to have three main user groups -- an administrato
 
 All training plans developed by mine operators and/or independent contractors must be approved by MSHA and must be made available upon request. A training plan contains information related to the teaching methods, course materials, evaluation procedures, and the estimated teaching time for each subject. A training plan is automatically considered approved by MSHA if it contains all the requisite data. If a plan does not include the required information, it must be subimtted to the appropriate MSHA regional manager for approval; mine operators are notified in case the plans are not approved (in which case they may appeal the decision).
 
-The application would therefore have to provide a way to allow the user to formulate a training plan and also to capture all the data, which must be subject to approval.
+The application would therefore have to provide a way to allow the user to formulate a training plan and also to capture all the data, which must be subject to approval. The module was thus going to have three core functions: 
+* Add/create new training plan (which must then be approved)
+* Schedule a training plan
+* Add personnel to the training plan
 
-### User flow
+### User flow map
 
 I made a user flow model with a set of functions that maps the supervisors' tasks through the functions present in the training module.
 
@@ -38,4 +41,10 @@ I made a user flow model with a set of functions that maps the supervisors' task
 
 A higher-res version of the flow diagram can be viewed <a href="https://www.anithvishwanath.com/images/ct/user-flow.png" target="_blank">here</a>.
 
-### Design conceptualisation + ideation
+### Ideation
+
+For the design, I first started by sketching the concept on paper. A way to capture the training plan data was via simple forms on the web. I however had to figure out a way to show the main training view, as training plans had statuses assigned to them (active / pending approval / unscheduled). Moreover, the training plans must also indicate the overall progress of each course -- which is tied to the course duration (for the supervisor view).
+
+#### Prototype
+
+![Training plan view](/images/ct/training_view.png)
