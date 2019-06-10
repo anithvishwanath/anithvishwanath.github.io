@@ -48,3 +48,4 @@ For the design, I first started by sketching the concept on paper. A way to capt
 #### Prototype
 
 ![Training plan view](/images/ct/training_view.png)
+![Training plan view](/images/ct/training_view1x.png)
