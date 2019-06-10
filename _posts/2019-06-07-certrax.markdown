@@ -24,9 +24,9 @@ I began by going through the current implementation of the system to better unde
 
 The application was scoped out to have three main user groups -- an administrator, a supervisor, and the operator. The app will have a set of capabilities assigned to each role. During my research, I found that some mine operators can provide training to other operators. In other words, certain mine operators may also provide training (on the condition that they have been authorised to impart their knowledge in their area(s) of mining operations expertise by MSHA). These operators are referred to as “Competent Persons” within the MSHA program policy manuals, however they are simply called “Trainers” within the context of our application. Trainers here may either be in-house personnel, or external consultants (independent contractors). Training can also be conducted either on-site (work areas owned by the mining company using the application), or off-site (external locations; supervisors elect to send a cohort of miners for training purposes).
 
-I first started out by making the application solely for a mine supervisor. 
+I started out by making the application solely for a mine supervisor. 
 
-#### Training plans
+#### On training plans
 
 All training plans developed by mine operators and/or independent contractors must be approved by MSHA and must be made available upon request. A training plan contains information related to the teaching methods, course materials, evaluation procedures, and the estimated teaching time for each subject. A training plan is automatically considered approved by MSHA if it contains all the requisite data. If a plan does not include the required information, it must be subimtted to the appropriate MSHA regional manager for approval; mine operators are notified in case the plans are not approved (in which case they may appeal the decision).
 
@@ -43,20 +43,29 @@ I made a user flow model with a set of functions that maps the supervisors' task
 
 A higher-res version of the flow diagram can be viewed <a href="https://www.anithvishwanath.com/images/ct/user-flow.png" target="_blank">here</a>.
 
-### Ideation
+## Ideation
 
 For the design, I first started by sketching the concept on paper. A way to capture the training plan data was via simple forms on the web. I however had to figure out a way to show the main training view, as training plans had statuses assigned to them (active / pending approval / unscheduled). Moreover, the training plans must also indicate the overall progress of each course -- which is tied to the course duration (for the supervisor view).
 
-#### Prototype
+### Prototype
 
 The interface was going to make use of the existing layout and structure, with certain new elements added to it. Primarily, I wanted to establish a clearer visual hierarchy via better typography and colour. Secondarily, I felt the need to simplify the interaction points. The training plan view shown below was made to meet both these needs. I chose blue for the primary elements of the interface. 
 
 ![Training plan view](/images/ct/training_view1x.png)
 
-For example, in the view above, the blue header for the cards indicates active training plans. Similar colours have been chosen to indicate different states; grey for unscheduled training plans, and yellow for those pending approval. This is a deliberate design decision instead of being more explicit via the use of labels / tags, which have been repurposed to show the teaching methods used for the courses.
+For example, the blue header for the cards in the screen above indicates active training plans. These plans also have a progress bar tracking the course progression. Similar colours have been chosen to indicate different states; grey for unscheduled training plans, and yellow for those pending approval. This is a deliberate design decision, instead of being more explicit via the use of labels / tags, which have been repurposed to show the teaching methods used for the courses as seen in the active training module screen below.
 
 ![Active training module view](/images/ct/active_training_module1x.png)
+
+The 
+
+#### Creating and scheduling training plans
 
 ![Create new training plan](/images/ct/new_plan1x.png)
 
 ![Schedule training plan](/images/ct/schedule_plan1x.png)
+
+### In conclusion
+
+
+
