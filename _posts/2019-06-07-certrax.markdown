@@ -6,7 +6,7 @@ excerpt: Certification and training management system that keeps track of the pe
 categories: case-studies
 ---
 
-cerTrax is an certification and training management system that keeps track of the personnel compliance and training requirements at mining sites. This falls in line with the Mine Safety and Health Administration (MSHA) guidelines which requires every employee is equipped with the proper training and certification standards set in place. 
+cerTrax is a certification and training management system that keeps track of the personnel compliance and training requirements at mining sites. This falls in line with the Mine Safety and Health Administration (MSHA) guidelines which requires every employee is equipped with the proper training and certification standards set in place. 
 
 In addition, MSHA also conducts routine inspections at mining worksites/areas. This may involve producing certification and training plans when requested. Having an application that both digitises and provides a way to manage personnel certification records along with their training programs undertaken will allow for greater portability and better competency at mines.
 
