@@ -47,5 +47,10 @@ For the design, I first started by sketching the concept on paper. A way to capt
 
 #### Prototype
 
-![Training plan view](/images/ct/training_view.png)
 ![Training plan view](/images/ct/training_view1x.png)
+
+![Active training module view](/images/ct/active_training_module1x.png)
+
+![Create new training plan](/images/ct/new_plan1x.png)
+
+![Schedule training plan](/images/ct/schedule_plan1x.png)
