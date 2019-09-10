@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I'm Anith. I'm an experience designer focused on creating effortless, customer focused experiences. 
 
-I am currently working as a UX/UI Designer at rapidBizApps, Inc. Take a look at my <a href="/">projects</a> to see what I've worked on.
+I am currently working as a UX/UI Designer at NCR Corporation. Take a look at my <a href="/">projects</a> to see what I've worked on.
 
 While I am not designing, I love to travel, read a lot of books, write (blog coming soon!), and learn new languages. I am currently (self)-learning Swedish. My interests include AR/VR, 3D + VFX, and generative/procedural art. 
 
