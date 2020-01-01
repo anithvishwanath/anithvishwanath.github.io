@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.anithvishwanath.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anithvishwanath
 dribbble_username: anithvishwanath
-timezone: Australia/Melbourne
+timezone: Australia/Sydney
 excerpt_separator: <!--more-->
 
 #Google Analytics
