@@ -24,6 +24,10 @@ dribbble_username: anithvishwanath
 timezone: Australia/Sydney
 excerpt_separator: <!--more-->
 
+#header_pages
+- index.md
+- about.md
+
 #Google Analytics
 google_analytics: UA-141679756-1
 
