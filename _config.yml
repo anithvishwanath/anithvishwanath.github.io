@@ -24,11 +24,12 @@ dribbble_username: anithvishwanath
 timezone: Australia/Sydney
 excerpt_separator: <!--more-->
 
-#header_pages
+#Header pages
+header_pages:
 - index.md
 - about.md
 
-#Google Analytics
+#Google analytics
 google_analytics: UA-141679756-1
 
 # Build settings
