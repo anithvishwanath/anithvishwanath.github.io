@@ -5,3 +5,4 @@ gem "minima", "~> 2.5"
 gem "jekyll-feed", "~> 0.12"
 gem 'tzinfo', '~> 2.0', '>= 2.0.2'
 gem "tzinfo-data"
+gem 'i18n', '~> 1.8', '>= 1.8.3'

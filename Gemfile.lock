@@ -12,7 +12,7 @@ GEM
     ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (1.8.3)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jekyll (4.1.1)
       addressable (~> 2.4)
@@ -68,15 +68,19 @@ GEM
     tzinfo-data (1.2020.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  i18n (~> 1.8, >= 1.8.3)
   jekyll (~> 4.1, >= 4.1.1)
+  jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (~> 2.0, >= 2.0.2)
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4
