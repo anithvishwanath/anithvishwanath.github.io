@@ -10,7 +10,7 @@ $tablet-device-width: 800px;
 
 @mixin media-query($device-width) {
   @media screen and (max-width: $device-width) {
-    @content
+    @content;
   }
 }
 
@@ -20,26 +20,39 @@ $tablet-device-width: 800px;
 }
 
 /* Site footer */
+.footer-col-1 {
+  width: -webkit-calc(30% - (30px / 2));
+  width: calc(30% - (30px / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2));
+  text-align: center;
+}
+
+.footer-col-3 {
+  width: -webkit-calc(30% - (30px / 2));
+  width: calc(30% - (30px / 2));
+}
+
 .copy p {
   text-align: right;
 }
 
 @include media-query($tablet-device-width) {
-  .footer-col-1 {
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2));
-  }
-
-  .footer-col-2 {
-    width: -webkit-calc(30% - (30px / 2));
-    width: calc(30% - (30px / 2));
-  }
-
+  .footer-col-1,
   .footer-col-3 {
     width: -webkit-calc(30% - (30px / 2));
     width: calc(30% - (30px / 2));
   }
-  
+
+  .footer-col-2 {
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2));
+    text-align: center;
+  }
+
   .copy p {
     text-align: right;
   }
@@ -52,6 +65,10 @@ $tablet-device-width: 800px;
     width: calc(100% - (30px / 2));
   }
 
+  .footer-col-2 {
+    text-align: left;
+  }
+  
   .copy p {
     text-align: left;
   }
