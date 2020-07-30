@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  
+
   {% include head.html %}
   
 <body>
   
+<div class="mm-mode">
+  <p>🚧🚧</p>
+  <p>Be right back. Currently reworking my portfolio!</p>
+<span class="mm-social">Please feel free to reach out to me on:</span>
+<div><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="mm-twitter"><i class="fab fa-twitter-square fa-3x mm-twitter"></i></a> 
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="mm-linkedin"><i class="fab fa-linkedin fa-3x mm-linkedin"></i></a></div>
+</div>
+  {% comment %}
   {% include header.html %}
-  
-  <main class="page-content" aria-label="Content">
+  {% endcomment %}
+
+  <!-- <main class="page-content" aria-label="Content">
     <div class="wrapper">
       {{ content }}
     </div>
-  </main>
+  </main> -->
 
+  {% comment %}
   {% include footer.html %}
+  {% endcomment %}
     
 </body>
 </html>

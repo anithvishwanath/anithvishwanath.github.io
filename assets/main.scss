@@ -14,6 +14,76 @@ $tablet-device-width: 800px;
   }
 }
 
+/* temp */ 
+body {
+  background: #fcfcfc;
+}
+
+.mm-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.mm-mode p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.mm-social {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mm-twitter,
+.mm-linkedin {
+  color: #222;
+  margin: 5px;
+}
+
+.mm-twitter:hover {
+  color: #1DA1F2;
+}
+
+.mm-linkedin:hover {
+  color: #2867b2;
+}
+
+@include media-query($mobile-device-width) {
+  .mm-mode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+  }
+
+  .mm-mode p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .mm-social {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .mm-twitter,
+  .mm-linkedin {
+    margin: 5px;
+  }
+}
+
+/* end temp */
+
 /* Site header */
 .site-title:hover {
   text-decoration: none;
